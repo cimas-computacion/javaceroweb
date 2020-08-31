@@ -14,9 +14,9 @@ import javax.inject.Named;
 @ViewScoped
 public class SorteoBean implements Serializable {
 	
-	private String nombre;
-	private String ganador;
-	private List<String> lista;
+	private String nombres;
+	private String ganadores;
+	private List<String> listas;
 
 	@PostConstruct
 	public void init() {
